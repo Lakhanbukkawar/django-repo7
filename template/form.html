@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div style="background-color:blueviolet;" class="container text-white pt-2">
+        <div class="row">
+            <div class="col">
+                <labe class="font-weight-bold">First name:</label>
+            </div>
+            <div class="col"><input type="text" name="firstname"><label class="ml-2 font-weight-bold">(max 30 character)</label></div>
+        </div>
+        <div class="row mt-3">
+            <div class="col">
+                <labe class="font-weight-bold">Last name:</label>
+            </div>
+            <div class="col"><input type="text" name="lastname"><label class="ml-2 font-weight-bold">(max 30 character)</label></div>
+        </div>
+        <div class="row mt-3">
+            <div class="col">
+                <labe class="font-weight-bold">E-mail Id:</label>
+            </div>
+            <div class="col"><input type="email" name="Email"><label class="ml-2 font-weight-bold"></label></div>
+        </div>
+        <div class="row mt-3">
+            <div class="col">
+                <labe class="font-weight-bold">Mobile No:</label>
+            </div>
+            <div class="col"><input type="number" name="Mobile No"><label class="ml-2 font-weight-bold"></label></div>
+        </div>
+        <div class="row mt-3">
+            <div class="col">
+                <label class="font-weight-bold">Date Of Birth:</label>
+            </div>
+            <div class="col">
+                <select name="Day">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+
+                </select>
+                <select name="month">
+                    <option value="Jan">Jan</option>
+                    <option value="Feb">Feb</option>
+                    <option value="Mar">Mar</option>
+                </select>
+                <select name="year">
+                    <option value="1997">1997</option>
+                      <option value="1998">1998</option>
+                      <option value="1999">1999</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <labe class="font-weight-bold">Gender:</label>
+            </div>
+            <div class="col">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                    <label class="form-check-label" for="inlineCheckbox1">Male</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                    <label class="form-check-label" for="inlineCheckbox2">Female</label>
+                </div>
+             <!-- <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" disabled>
+                <label class="form-check-label" for="inlineCheckbox3">3 (disabled)</label>
+              </div> -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <labe class="font-weight-bold">Address:</label>
+            </div>
+            <div class="col"><textarea type="text" name="address"></textarea><label class="ml-2 font-weight-bold"></label></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <labe class="font-weight-bold">Pin Code:</label>
+            </div>
+            <div class="col"><input type="number" name="pincode"><label class="ml-2 font-weight-bold"></label></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <labe class="font-weight-bold">City</label>
+            </div>
+            <div class="col"><input type="text" name="city"><label class="ml-2 font-weight-bold"></label></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <labe class="font-weight-bold">State:</label>
+            </div>
+            <div class="col"><input type="text" name="state"><label class="ml-2 font-weight-bold"></label></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <labe class="font-weight-bold">Country</label>
+            </div>
+            <div class="col"><input type="text" name="country"><label class="ml-2 font-weight-bold"></label></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <labe class="font-weight-bold">Hobbies:</label>
+            </div>
+            <div class="col">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                    <label class="form-check-label" for="inlineCheckbox1">Drawing</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                    <label class="form-check-label" for="inlineCheckbox2">Dancing</label>
+                </div>
+                <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                <label class="form-check-label" for="inlineCheckbox3">Singing</label>
+              </div>
+            </div>
+        </div>
+        <table class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">Sr.no</th>
+                <th scope="col">Class X</th>
+                <th scope="col">Class XII</th>
+                <th scope="col">Competitave</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Board</th>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">Percentage</th>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">Year Of Passing</th>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+        </table>
+        <div class="row">
+            <div class="col">
+                <labe class="font-weight-bold">Courses:</label>
+            </div>
+            <div class="col">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                    <label class="form-check-label" for="inlineCheckbox1">B.A</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                    <label class="form-check-label" for="inlineCheckbox2">MBA</label>
+                </div>
+                <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                <label class="form-check-label" for="inlineCheckbox3">B.Sc</label>
+              </div>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg btn-block">submit</button>
+          
+         
+
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="POST" action="/show">{% csrf_token %}
+        <div class="container">
+            <h1>Registration Form</h1>
+            <hr>
+                <label for="First Name">
+                <b>First Name</b></label>
+                <input name="First Name"type="text" placeholder="Enter your name"><br>
+                <label for="Last Name">
+                <b>Last Name</b></label>
+                <input name="Last Name" type="text" placeholder="Enter your last name"><br>
+                <label for="Email Id">
+                    <b>Email Id</b></label>
+                <input name="Email Id" type="email" placeholder="Email Id"><br>
+                <label for="Mobile No">
+                    <b>Mobile No</b></label>
+                <input type="number" placeholder="Mobile No"><br>
+                <label for="Date Of Birth">
+                  <b>Date of Birth</b></label>
+                  <select name="Date">
+                      <option value="">1</option>
+                      <option value="">2</option>
+                      <option value="">3</option>
+                  </select>
+                  <select name="Month">
+                      <option value="">Jan</option>
+                      <option value="">Feb</option>
+                      <option value="">Mar</option>
+
+                  </select>
+                  <select name="Year">
+                      <option value="">1996</option>
+                      <option value="">1997</option>
+                      <option value="">1998</option>
+                  </select>
+                  <br>
+                <label for="Gender">
+                    <b>Gender</b></label>
+                    <input name="Male" type="radio">
+                    <label for="Male">
+                        <b>Male</b>
+                    </label>
+                    <input name="Female" type="radio">
+                    <label for="Female">
+                        <b>Female</b>
+                    </label><br>
+                <label for="Address">
+                        <b>Address</b>
+                    </label>
+                    <textarea name="Address"type="text"></textarea>
+                    <br>
+                <label for="Pincode">
+                    <b>Pincode</b>
+                </label>
+                <input type="number"> <br>
+                <label for="State">
+                    <b>State</b>
+                </label>
+                <input name="State" type="text"> <br>
+                <label for="Country">
+                    <b>Country</b>
+                </label>
+                <input name="Country" type="text"> <br>
+                <label for="Hobbies">
+                    <b>Hobbies</b>
+                </label>
+                <input type="checkbox">
+                <label for="Dancing">
+                    <b>Dancing</b>
+                </label>
+                <input type="checkbox">
+                <label for="Singing">
+                    <b>Singing</b>
+                </label>
+                <input type="checkbox">
+                <label for="Drawing">
+                    <b>Drawing</b>
+                </label>
+                <input type="checkbox">
+                <label for="Others">
+                    <b>Others</b>
+                </label>
+                <input type="text">
+                <table border="2px">
+                    <tr>
+                        <td>SR.NO.Examination</td>
+                        <td>Board</td>
+                        <td>Percentage</td>
+                        <td>Year Of Passing</td>
+                    </tr>
+                    <tr>
+                        <td>class X</td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>class XII</td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+
+                    </tr>
+                    <tr>
+                        <td>Graduation</td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                </table>
+                <label for="Courses">
+                    <b>Courses Applied For</b>
+                </label>
+                <input type="radio">
+                <label for="BCA">
+                    <b>BCA</b>
+                </label>
+                <input type="radio">
+                <label for="B.Sc">
+                    <b>B.Sc</b>
+                </label><br>
+
+                
+                
+                
+
+            </hr>
+            <button type="submit">submit</button>
+        </div>
+    </form>
+</body>
+</html>  -->
